@@ -4,6 +4,9 @@ Parse HTML using Beautiful Soup
 Interact with web forms using MechanicalSoup
 Repeatedly request data from a website to check for updates
 https://realpython.com/python-web-scraping-practical-introduction/ 
+https://realpython.com/what-is-pip/
+http://learn-co-curriculum.github.io/site-for-scraping/courses
+
 ### Command Run
 python scrape.py
 
@@ -19,4 +22,23 @@ git push -u origin main(it can bemaster depending on which branch you're @)
 ### 1. Extracting Source code (scrape)
 ### 2. Extract Text From HTML With String Methods (scrape1)
 ### 3. Extract Text From HTML With Regular Expressions (scrape2)
+### 4. Extract Text From HTML With Regular Expressions without whitespace
+### 5. Use an HTML Parser for Web Scraping in Python (BeautifulSoup)
+To install Beautiful Soup, you can run the following in your terminal:
+ python -m pip install beautifulsoup4
+ - soup.title.string: This directly extracts the text inside the <title> tag. - BeautifulSoup automatically removes the HTML tags.
+ - You can extract other elements from the HTML with ease by using various BeautifulSoup methods (find, find_all, etc.).
+ ### 6. Interact With HTML Forms (MechanicalSoup)
+Always install inside your virtual environment when working on a specific project, so that dependencies are isolated from your global Python environment.
 
+python -m venv venv\
+venv\Scripts\activate.bat - optional
+python -m pip install MechanicalSoup (You can install in the Virtual Env (venv)).
+
+# Python has the built-in venv module for creating virtual environments. 
+The parentheses (()) surrounding your venv name indicate that you successfully activated the virtual environment. 
+eg... 
+(venv) PS>  pip3 --version
+(venv) PS>  pip --version
+
+### 7. Interact With Websites in Real Time
