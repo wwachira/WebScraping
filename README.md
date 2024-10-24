@@ -1,4 +1,5 @@
 ### Learning outcomes
+### Author: W. Wachira, Liz
 Request a web page using Python’s built-in urllib module
 Parse HTML using Beautiful Soup
 Interact with web forms using MechanicalSoup
@@ -30,8 +31,8 @@ To install Beautiful Soup, you can run the following in your terminal:
  - You can extract other elements from the HTML with ease by using various BeautifulSoup methods (find, find_all, etc.).
  ### 6. Interact With HTML Forms (MechanicalSoup)
 Always install inside your virtual environment when working on a specific project, so that dependencies are isolated from your global Python environment.
-
-python -m venv venv\
+python -m pip install --upgrade pip
+python -m venv venv\  (you can use this too: pipenv shell)
 venv\Scripts\activate.bat - optional
 python -m pip install MechanicalSoup (You can install in the Virtual Env (venv)).
 
@@ -41,4 +42,12 @@ eg...
 (venv) PS>  pip3 --version
 (venv) PS>  pip --version
 
+## To leave or deactivate a virtual environment, you can simply run the following command in your terminal:
+deactivate
 ### 7. Interact With Websites in Real Time
+Important: Most websites publish a Terms of Use document. You can often find a link to it in the website’s footer.
+Failure to comply with the Terms of Use could result in your IP being blocked, so be careful!
+
+## PLEASE NOTE:
+With techniques like this, you can scrape data from websites that periodically update their data. However, you should be aware that requesting a page multiple times in rapid succession can be seen as suspicious, or even malicious, use of a website.
+

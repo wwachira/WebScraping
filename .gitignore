@@ -8,6 +8,10 @@ __pycache__/
 venv/
 Pipfile.lock
 
+# venvpip
+# mechanicalsoup
+
+
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
